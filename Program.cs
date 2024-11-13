@@ -4,7 +4,7 @@ using MinimalAPIen.NET;
 
 var builder = WebApplication.CreateBuilder(args);
 //builder.Services.AddDbContext<TasksContext>(p => p.UseInMemoryDatabase("TasksDB"));
-builder.Services.AddSqlServer<TasksContext>("Data Source=PULIDXX;Initial Catalog=TasksDB;user id=sa;password=Hola123456;TrustServerCertificate=True");
+builder.Services.AddSqlServer<TasksContext>(builder.Configuration.GetConnectionString("conecctionTasks"));
 var app = builder.Build();
 
 app.MapGet("/", () => "Hello World!");
