@@ -5,19 +5,19 @@ namespace MinimalAPIen.NET.Models;
 
 public class Task
 {
-    [Key]
+    // [Key]
     public Guid TaskId { get; set; }
-    [ForeignKey("CategoryId")]
+    // [ForeignKey("CategoryId")]
     public Guid CategoriaId { get; set; }
-    [Required]
-    [MaxLength(200)]
-    public string Titulo { get; set; }
+    // [Required]
+    // [MaxLength(200)]
+    public string Title { get; set; }
     public string Description { get; set; }
     public Priority TaskPriority { get; set; }
     public DateTime CreationDate { get; set; }
     public virtual Category Category { get; set; }
-    [NotMapped]
-    public string Resumen { get; set; }
+    // [NotMapped]
+    public string Summary { get; set; }
 }
 
 public enum Priority
