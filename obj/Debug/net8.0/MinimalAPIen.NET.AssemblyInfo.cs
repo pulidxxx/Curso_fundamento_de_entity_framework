@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MinimalAPIen.NET")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+13ad163145f2eeecf9efd19112b85aebd9e6ce6f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+12039d2e2e5f062f98b1b150fc45734a3a28ac85")]
 [assembly: System.Reflection.AssemblyProductAttribute("MinimalAPIen.NET")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MinimalAPIen.NET")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
